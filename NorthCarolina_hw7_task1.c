@@ -19,6 +19,7 @@
 void show_arr(const double ar[], double length);
 void copy_arr(double ar1[], double ar2[], int length);
 void copy_ptr(double *ar1, double *ar2, int length);
+void copy_ptrs(double *ar2, double *start, double *end);
 
 /* Main Program */
 int main(int argc, char *argv[])
@@ -26,6 +27,7 @@ int main(int argc, char *argv[])
 	double ard[LEN] = {1.0, 2.0, 3.0, 4.0, 5.0};
 	double ard2[LEN];
 	double ard3[LEN];
+	double ard4[LEN];
 	
 	printf("source array: ");
 	show_arr(ard, LEN);
@@ -37,6 +39,10 @@ int main(int argc, char *argv[])
 	printf("copied by pointer: ");
 	copy_ptr(ard, ard3, LEN);
 	show_arr(ard3, LEN);
+
+	printf("copied using pointer range: ");
+	copy_ptrs(ard4, ard, ard + LEN);
+	show_arr(ard4, LEN);
 
 	return 0;
 }
@@ -73,3 +79,19 @@ void copy_ptr(double *ar1, double *ar2, int length)
 	return;
 }
 
+void copy_ptrs(double *ar2, double *start, double *end)
+{
+	while(1)
+	{
+		if(start < end)
+		{
+			*ar2 = *start;
+		}
+		else
+		{
+			break;
+		}
+		ar2++;
+		start++;
+	}
+}

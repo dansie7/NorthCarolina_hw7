@@ -55,6 +55,7 @@ void show_arr(const double ar[], double length)
 	{
 		printf("%.1f ", ar[i]);
 	}
+
 	printf("\n\n");
 	return;
 }

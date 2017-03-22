@@ -17,13 +17,20 @@
 #define LEN 5
 /* Function Prototypes */
 void show_arr(const double ar[], double length);
+void copy_arr(double ar1[], double ar2[], int length);
+
 /* Main Program */
 int main(int argc, char *argv[])
 {
 	double ard[LEN] = {1.0, 2.0, 3.0, 4.0, 5.0};
-
+	double ard2[LEN];
+	
 	printf("source array: ");
 	show_arr(ard, LEN);
+
+	printf("copied by subscript: ");
+	copy_arr(ard, ard2, LEN);
+	show_arr(ard2, LEN);
 
 	return 0;
 }
@@ -40,5 +47,13 @@ void show_arr(const double ar[], double length)
 	return;
 }
 
+void copy_arr(double ar1[], double ar2[], int length)
+{
+	for(int i = 0; i < length; i++)
+	{
+		ar2[i] = ar1[i];
+	}
+	return;
+}
 
 

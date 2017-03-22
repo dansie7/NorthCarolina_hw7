@@ -18,12 +18,14 @@
 /* Function Prototypes */
 void show_arr(const double ar[], double length);
 void copy_arr(double ar1[], double ar2[], int length);
+void copy_ptr(double *ar1, double *ar2, int length);
 
 /* Main Program */
 int main(int argc, char *argv[])
 {
 	double ard[LEN] = {1.0, 2.0, 3.0, 4.0, 5.0};
 	double ard2[LEN];
+	double ard3[LEN];
 	
 	printf("source array: ");
 	show_arr(ard, LEN);
@@ -31,6 +33,10 @@ int main(int argc, char *argv[])
 	printf("copied by subscript: ");
 	copy_arr(ard, ard2, LEN);
 	show_arr(ard2, LEN);
+
+	printf("copied by pointer: ");
+	copy_ptr(ard, ard3, LEN);
+	show_arr(ard3, LEN);
 
 	return 0;
 }
@@ -56,4 +62,14 @@ void copy_arr(double ar1[], double ar2[], int length)
 	return;
 }
 
+void copy_ptr(double *ar1, double *ar2, int length)
+{
+	for(int i = 0; i < length; i++)
+	{
+		*ar2 = *ar1;
+		ar1++;
+		ar2++;
+	}
+	return;
+}
 

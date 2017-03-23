@@ -3,7 +3,7 @@
  *
  *       Filename:  NorthCarolina_hw7_task2.c
  *       	Usage:  ./NorthCarolina_hw7_task2.c
- *    Description:  Task2
+ *    Description:  Task2-Random Array
  *
  *        Version:  1.0
  *        Created:  03/16/2017 04:25:03 PM
@@ -13,9 +13,9 @@
  */
 #include <stdio.h>		/* For Standard I/O */
 #include <stdlib.h>
-#define MAXMIN 10
 #include <time.h>
 
+#define MAXMIN 10
 /* Function Prototypes */
 void MaxMin(int numvals, int vals[], int* min, int* max);
 

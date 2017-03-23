@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	srand(time(NULL));
 	list[0] = rand() % 100;
 	min = list[0];
-	printf("The integers of the array are:\n");
+	printf("The random generated list is:\n");
 
 	for (i = 0; i < MAXMIN; i++)
 	{
@@ -38,8 +38,6 @@ int main(int argc, char *argv[])
 		printf("%d ", list[i]);
 	}
 	MaxMin(MAXMIN, list, &min, &max);
-	printf("\nThe max value of the array is: %d\n", max);
-	printf("The min value of the array is: %d\n", min);
 	return 0;
 }
 
@@ -58,6 +56,8 @@ void MaxMin(int numvals, int vals[], int* min, int* max)
 			*min = vals[i];
 		}
 	}
+	printf("\nThe max value of the array is: %d\n", *max);
+	printf("The min value of the array is: %d\n", *min);
 	return; 
 }
 

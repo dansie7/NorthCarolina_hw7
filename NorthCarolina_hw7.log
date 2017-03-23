@@ -1,0 +1,59 @@
+commit 2ea50ebc0a95eaac1799ddfa2d3bb3249a833a22
+Author: Kurt Weloth <kurtweloth@mail.weber.edu>
+Date:   Thu Mar 23 01:59:08 2017 +0000
+
+    Final go
+
+commit abea6b4e13e5df290b9bb3f9fb98501bd1ce3af8
+Author: Kurt Weloth <kurtweloth@mail.weber.edu>
+Date:   Thu Mar 23 00:17:39 2017 +0000
+
+    2nd go
+
+commit becd32c96829d226127d6d08199d2efc5b8280b4
+Author: Kurt Weloth <kurtweloth@mail.weber.edu>
+Date:   Thu Mar 23 00:10:27 2017 +0000
+
+    First Go
+
+commit 0a5eec59976dc9f4b1c668ee8f751281bb4dc7fb
+Author: Sharon Dansie <sharondansie@mail.weber.edu>
+Date:   Wed Mar 22 18:29:55 2017 +0000
+
+    Task 1 complete
+
+commit f7c5ebdb6c7e38acf88bb76aae7e7eb2d25be3db
+Author: Sharon Dansie <sharondansie@mail.weber.edu>
+Date:   Wed Mar 22 18:22:13 2017 +0000
+
+    added copy_ptr function, tested, works!
+
+commit aee2483b2285b2844292f9288d42ea18efe28f64
+Author: Sharon Dansie <sharondansie@mail.weber.edu>
+Date:   Wed Mar 22 18:16:47 2017 +0000
+
+    added copy_arr function, tested, it works
+
+commit c37b877bcddbe044bf826bca4418e78660733475
+Author: Sharon Dansie <sharondansie@mail.weber.edu>
+Date:   Wed Mar 22 18:08:14 2017 +0000
+
+    added copy_arr function
+
+commit e3d921684c689ae3fe68ec4fc852f532608299c2
+Author: Sharon Dansie <sharondansie@mail.weber.edu>
+Date:   Wed Mar 22 18:03:55 2017 +0000
+
+    Task1 - Initialized array and added show_arr function
+
+commit 1d573867e0afddf7797fdac7e3a9fa04202111b1
+Author: Sharon Dansie <sharondansie@mail.weber.edu>
+Date:   Thu Mar 16 16:29:37 2017 +0000
+
+    Commit gitignore executable files haha
+
+commit 7022d9407baeae7de14d794e4cf9db59358bc018
+Author: Sharon Dansie <sharondansie@mail.weber.edu>
+Date:   Thu Mar 16 16:26:00 2017 +0000
+
+    Initial Commit
